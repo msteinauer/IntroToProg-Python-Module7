@@ -16,41 +16,35 @@ This document shows how I used error handling and pickling to create the assigne
 I put together the processing section using psedudocode and creating functions to save, read and input data.  You will notice at the top of the script that import of pickle is used, this was part of the starter script.
 Figure 1 shows the setup of the script with the first function that saves data to a file.  Notice that this is saves as binary using the “ab” trigger.
 
- ![Function to save_data_to_file] (docs/Figure1.png "Function to save_data_to_file")###
+### Figure 1
+ ![Function to save_data_to_file](https://github.com/msteinauer/IntroToProg-Python-Module7/blob/main/docs/Figure1.png) 
+ "Function to save_data_to_file")
+ ### Figure 1
 Figure 1: Function to save_data_to_file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Figure 2 shows the read_data_from_file function. The data is read into memory using the load option in pickle.  Once loaded into memory, we can use it as needed to add to it or save to file. Error handling is used in this function to let the user know that the file is empty.
 
- 
+ ### Figure 2
+ ![Function to read data from a file](https://github.com/msteinauer/IntroToProg-Python-Module7/blob/main/docs/Figure2.png) 
+ "Function to read data from a file")
+ ### Figure 2
 Figure 2: Function to read data from a file.
 
 Figure 3 shows the id_name_input function. This allows the user to input new data which is saved into the txt and dat files thus showing pickle in all it’s glory.  If the user tries to use anything besides a number for the ID, error handling is set in place to remind them to use a number.
-
+### Figure 3
+ ![Function to input data](https://github.com/msteinauer/IntroToProg-Python-Module7/blob/main/docs/Figure3.png) 
+ "Function to input data")
+ ### Figure 3
  
 Figure 3: Function to input data.
 
 
 3	Presentation
 Figure 4 Saves and prints data to the file. In the presentation section we not only save data to the file; we print out what has been saved for the user to confirm. 
-
+### Figure 4
+ ![Saving and printing of data](https://github.com/msteinauer/IntroToProg-Python-Module7/blob/main/docs/Figure4.png) 
+ "Saving and printing of data")
+ ### Figure 4
 
  
 Figure 4: Saving and printing of data.
