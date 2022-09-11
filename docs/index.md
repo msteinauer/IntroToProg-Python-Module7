@@ -14,8 +14,9 @@ This document shows how I used error handling and pickling to create the assigne
 2	Processing
 
 I put together the processing section using psedudocode and creating functions to save, read and input data.  You will notice at the top of the script that import of pickle is used, this was part of the starter script.
-Figure 1 shows the setup of the script with the first function that saves data to a file.  Notice that this is saves as binary using the “ab” trigger. 
- ![Function to save_data_to_file] (https://github.com/msteinauer/IntroToProg-Python-Module7/blob/main/docs/Figure1.png "Figure 1")###
+Figure 1 shows the setup of the script with the first function that saves data to a file.  Notice that this is saves as binary using the “ab” trigger.
+
+ ![Function to save_data_to_file] (docs/Figure1.png "Function to save_data_to_file")###
 Figure 1: Function to save_data_to_file
 
 
